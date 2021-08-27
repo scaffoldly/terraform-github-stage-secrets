@@ -26,6 +26,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_organization"></a> [organization](#input\_organization) | The GitHub Organization | `string` | n/a | yes |
 | <a name="input_repository_name"></a> [repository\_name](#input\_repository\_name) | The repository name (within an org) to add secrets to | `string` | n/a | yes |
 | <a name="input_secrets"></a> [secrets](#input\_secrets) | A Key-Value map of the screts to add to a repository | `map(string)` | n/a | yes |
 | <a name="input_stage"></a> [stage](#input\_stage) | The stage (e.g. live, nonlive) | `string` | n/a | yes |
