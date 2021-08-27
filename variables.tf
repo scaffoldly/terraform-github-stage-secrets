@@ -3,6 +3,11 @@ variable "stage" {
   description = "The stage (e.g. live, nonlive)"
 }
 
+variable "organization" {
+  type        = string
+  description = "The GitHub Organization"
+}
+
 variable "repository_name" {
   type        = string
   description = "The repository name (within an org) to add secrets to"
